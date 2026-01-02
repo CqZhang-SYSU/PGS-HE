@@ -1,0 +1,336 @@
+---------------- MIPS for 2383-bus OPF ----------------
+MATPOWER Interior Point Solver -- MIPS, Version 1.5.2, 12-Jul-2025
+ (using built-in linear solver)
+ it    objective   step size   feascond     gradcond     compcond     costcond  
+----  ------------ --------- ------------ ------------ ------------ ------------
+  0     4024938.5             1.15375e-18       428826       685473            0
+  1     3965717.2     8.9625  5.11116e-07      22435.5       249811    0.0146771
+  2     3975853.6     1147.2  5.10851e-07      791.119       239012   0.00254958
+  3     3985148.2     1115.3  1.21255e-06      419.777       235900   0.00233191
+  4     3989559.1     979.58  1.21412e-06      266.337       234428   0.00110407
+  5     3989260.4     1231.7  2.76858e-06      312.516       235164  7.46927e-05
+  6     3989284.3      17878  2.77169e-06      307.171       235115  5.98897e-06
+  7     3989284.2 1.7368e+06  2.77169e-06      306.173       235113  3.44469e-08
+Numerically Failed
+
+Did not converge in 7 iterations.
+objective and constraint evaluation: 8
+total computation time of mips: 7.263810e-02
+---------------- IPOPT-mumps for 2383-bus OPF result ----------------
+This is Ipopt version 3.14.4, running with linear solver MUMPS 5.4.1.
+
+Number of nonzeros in equality constraint Jacobian...:     4037
+Number of nonzeros in inequality constraint Jacobian.:     4480
+Number of nonzeros in Lagrangian Hessian.............:     2112
+
+Total number of variables............................:      766
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:      526
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:      484
+Total number of inequality constraints...............:     1344
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:      448
+        inequality constraints with only upper bounds:      896
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0 4.0237315e+006 2.61e-001 1.00e+002   0.0 0.00e+000    -  0.00e+000 0.00e+000   0
+   1 4.0217747e+006 2.61e-001 9.00e+003   2.1 5.28e+002    -  5.82e-002 4.36e-004f  1
+   2 3.8397898e+006 2.45e-001 1.14e+005   2.0 2.37e+002    -  9.93e-001 5.95e-002f  1
+   3 3.7259358e+006 2.72e-001 5.20e+002   1.4 1.31e+001    -  1.00e+000 1.00e+000f  1
+   4 3.6272564e+006 7.93e-002 7.24e+002   1.2 1.03e+001    -  9.68e-001 1.00e+000f  1
+   5 3.5486728e+006 1.69e-001 7.28e+002   1.0 1.27e+001    -  9.88e-001 8.30e-001f  1
+   6 3.4807023e+006 1.05e-001 4.51e+001   0.8 1.89e+001    -  9.96e-001 1.00e+000f  1
+   7 3.4169573e+006 1.39e-001 1.69e+002  -5.2 5.26e+001    -  5.13e-001 4.60e-001f  1
+   8 3.3993279e+006 6.45e-002 4.93e+002   0.4 2.60e+001    -  8.60e-001 1.00e+000f  1
+   9 3.3720473e+006 5.69e-002 5.57e+001   0.2 1.97e+001    -  1.00e+000 8.47e-001f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10 3.3504768e+006 8.35e-002 1.32e+001  -0.1 1.50e+001    -  9.88e-001 9.86e-001f  1
+  11 3.3422111e+006 5.94e-002 4.44e+002  -0.6 1.05e+001    -  8.07e-001 4.76e-001f  1
+  12 3.3388640e+006 3.52e-002 2.53e+003  -0.7 5.70e+000    -  1.00e+000 4.12e-001f  1
+  13 3.3360276e+006 2.93e-002 1.46e+003  -0.9 4.18e+000    -  1.00e+000 4.88e-001f  1
+  14 3.3325497e+006 2.94e-002 2.72e+002  -1.1 2.70e+000    -  1.00e+000 7.81e-001f  1
+  15 3.3318437e+006 1.99e-002 2.61e+002  -1.4 2.07e+000    -  1.00e+000 3.85e-001f  1
+  16 3.3301159e+006 2.48e-002 4.00e+001  -2.1 2.18e+000    -  1.00e+000 8.80e-001f  1
+  17 3.3297764e+006 7.31e-003 1.35e+001  -2.6 9.45e-001    -  1.00e+000 8.69e-001h  1
+  18 3.3297003e+006 1.95e-003 3.80e+001  -3.2 3.76e-001    -  1.00e+000 8.60e-001h  1
+  19 3.3296746e+006 7.15e-004 8.02e+001  -3.9 2.16e-001    -  1.00e+000 9.48e-001h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20 3.3296712e+006 2.04e-004 1.36e+002  -4.4 1.14e-001    -  1.00e+000 9.86e-001h  1
+  21 3.3296702e+006 5.77e-005 1.73e-004  -5.4 4.54e-002    -  1.00e+000 1.00e+000h  1
+  22 3.3296701e+006 1.54e-005 1.28e+002  -6.0 1.48e-002    -  1.00e+000 8.08e-001h  1
+  23 3.3296701e+006 8.43e-007 2.49e-006  -6.8 5.22e-003    -  1.00e+000 1.00e+000h  1
+  24 3.3296701e+006 2.49e-009 1.84e-002 -11.0 2.00e-004    -  1.00e+000 9.99e-001h  1
+  25 3.3296701e+006 5.11e-012 6.78e-005 -11.0 5.44e-003    -  1.00e+000 9.98e-001h  1
+  26 3.3296701e+006 1.49e-012 1.27e-010 -11.0 1.40e-002    -  1.00e+000 1.00e+000h  1
+
+Number of Iterations....: 26
+
+                                   (scaled)                 (unscaled)
+Objective...............:  2.3884581990068116e+004   3.3296700634619510e+006
+Dual infeasibility......:  1.2732925824820995e-010   1.7750548013282240e-008
+Constraint violation....:  5.6923537924430236e-014   1.4864776076706221e-012
+Variable bound violation:  8.7980269825038704e-007   8.7980269825038704e-007
+Complementarity.........:  1.0064297835443199e-011   1.4030302571916422e-009
+Overall NLP error.......:  1.2732925824820995e-010   1.7750548013282240e-008
+
+
+Number of objective function evaluations             = 27
+Number of objective gradient evaluations             = 27
+Number of equality constraint evaluations            = 27
+Number of inequality constraint evaluations          = 27
+Number of equality constraint Jacobian evaluations   = 27
+Number of inequality constraint Jacobian evaluations = 27
+Number of Lagrangian Hessian evaluations             = 26
+Total seconds in IPOPT                               = 0.294
+
+EXIT: Optimal Solution Found.
+total computation time of IPOPT-mumps: 7.263810e-02
+---------------- IPOPT-ma97 for 2383-bus OPF result ----------------
+This is Ipopt version 3.14.4, running with linear solver ma97.
+
+Number of nonzeros in equality constraint Jacobian...:     4037
+Number of nonzeros in inequality constraint Jacobian.:     4480
+Number of nonzeros in Lagrangian Hessian.............:     2112
+
+Total number of variables............................:      766
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:      526
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:      484
+Total number of inequality constraints...............:     1344
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:      448
+        inequality constraints with only upper bounds:      896
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0 4.0237315e+006 2.61e-001 1.00e+002   0.0 0.00e+000    -  0.00e+000 0.00e+000   0
+   1 4.0217747e+006 2.61e-001 9.00e+003   2.1 5.28e+002    -  5.82e-002 4.36e-004f  1
+   2 3.8397898e+006 2.45e-001 1.14e+005   2.0 2.37e+002    -  9.93e-001 5.95e-002f  1
+   3 3.7259358e+006 2.72e-001 5.20e+002   1.4 1.31e+001    -  1.00e+000 1.00e+000f  1
+   4 3.6272564e+006 7.93e-002 7.24e+002   1.2 1.03e+001    -  9.68e-001 1.00e+000f  1
+   5 3.5486728e+006 1.69e-001 7.28e+002   1.0 1.27e+001    -  9.88e-001 8.30e-001f  1
+   6 3.4807023e+006 1.05e-001 4.51e+001   0.8 1.89e+001    -  9.96e-001 1.00e+000f  1
+   7 3.4169573e+006 1.39e-001 1.69e+002  -5.2 5.26e+001    -  5.13e-001 4.60e-001f  1
+   8 3.3993279e+006 6.45e-002 4.93e+002   0.4 2.60e+001    -  8.60e-001 1.00e+000f  1
+   9 3.3720473e+006 5.69e-002 5.57e+001   0.2 1.97e+001    -  1.00e+000 8.47e-001f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10 3.3504768e+006 8.35e-002 1.32e+001  -0.1 1.50e+001    -  9.88e-001 9.86e-001f  1
+  11 3.3422111e+006 5.94e-002 4.44e+002  -0.6 1.05e+001    -  8.07e-001 4.76e-001f  1
+  12 3.3388640e+006 3.52e-002 2.53e+003  -0.7 5.70e+000    -  1.00e+000 4.12e-001f  1
+  13 3.3360276e+006 2.93e-002 1.46e+003  -0.9 4.18e+000    -  1.00e+000 4.88e-001f  1
+  14 3.3325497e+006 2.94e-002 2.72e+002  -1.1 2.70e+000    -  1.00e+000 7.81e-001f  1
+  15 3.3318437e+006 1.99e-002 2.61e+002  -1.4 2.07e+000    -  1.00e+000 3.85e-001f  1
+  16 3.3301159e+006 2.48e-002 4.00e+001  -2.1 2.18e+000    -  1.00e+000 8.80e-001f  1
+  17 3.3297764e+006 7.31e-003 1.35e+001  -2.6 9.45e-001    -  1.00e+000 8.69e-001h  1
+  18 3.3297003e+006 1.95e-003 3.80e+001  -3.2 3.76e-001    -  1.00e+000 8.60e-001h  1
+  19 3.3296746e+006 7.15e-004 8.02e+001  -3.9 2.16e-001    -  1.00e+000 9.48e-001h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20 3.3296712e+006 2.04e-004 1.36e+002  -4.4 1.14e-001    -  1.00e+000 9.86e-001h  1
+  21 3.3296702e+006 5.77e-005 1.73e-004  -5.4 4.54e-002    -  1.00e+000 1.00e+000h  1
+  22 3.3296701e+006 1.54e-005 1.28e+002  -6.0 1.48e-002    -  1.00e+000 8.08e-001h  1
+  23 3.3296701e+006 8.43e-007 2.49e-006  -6.8 5.22e-003    -  1.00e+000 1.00e+000h  1
+  24 3.3296701e+006 2.49e-009 1.84e-002 -11.0 2.00e-004    -  1.00e+000 9.99e-001h  1
+  25 3.3296701e+006 5.27e-012 6.78e-005 -11.0 5.44e-003    -  1.00e+000 9.98e-001h  1
+  26 3.3296701e+006 1.40e-012 9.90e-011 -11.0 1.40e-002    -  1.00e+000 1.00e+000h  1
+
+Number of Iterations....: 26
+
+                                   (scaled)                 (unscaled)
+Objective...............:  2.3884581990068069e+004   3.3296700634619445e+006
+Dual infeasibility......:  9.9002906139015422e-011   1.3801665564165602e-008
+Constraint violation....:  5.3978109799603759e-014   1.3969936318858345e-012
+Variable bound violation:  8.7980269825038704e-007   8.7980269825038704e-007
+Complementarity.........:  1.0064297835440947e-011   1.4030302571913283e-009
+Overall NLP error.......:  9.9002906139015422e-011   1.3801665564165602e-008
+
+
+Number of objective function evaluations             = 27
+Number of objective gradient evaluations             = 27
+Number of equality constraint evaluations            = 27
+Number of inequality constraint evaluations          = 27
+Number of equality constraint Jacobian evaluations   = 27
+Number of inequality constraint Jacobian evaluations = 27
+Number of Lagrangian Hessian evaluations             = 26
+Total seconds in IPOPT                               = 0.194
+
+EXIT: Optimal Solution Found.
+total computation time of IPOPT-ma97: 1.531681e+00
+---------------- KNITRO- Interior Point Method for 2383-bus OPF result ----------------
+
+=======================================
+             Trial License
+       (NOT FOR COMMERCIAL USE)
+         Artelys Knitro 15.0.1
+=======================================
+
+Knitro using 1 thread.
+Knitro presolve eliminated 1 variable and 102 constraints.
+
+concurrent_evals         0
+feastol                  1e-06
+feastol_abs              5e-06
+ftol                     0.0001
+hessopt                  1
+maxit                    3000
+nlp_algorithm            1
+opttol                   1e-06
+opttol_abs               0.001
+outlev                   3
+xtol                     0.0001
+Knitro fixing 1 variable eliminated from the presolve.
+
+Problem Characteristics                                 (   Presolved)
+-----------------------
+Objective goal:  Minimize
+Objective type:  general
+Number of variables:                                766 (         765)
+    bounded below only:                               0 (           0)
+    bounded above only:                               0 (           0)
+    bounded below and above:                        526 (         527)
+    fixed:                                            1 (           0)
+    free:                                           239 (         238)
+Number of constraints:                             2275 (        2173)
+    linear equalities:                                3 (           3)
+    quadratic equalities:                             0 (           0)
+    gen. nonlinear equalities:                      480 (         480)
+    linear one-sided inequalities:                  896 (         794)
+    quadratic one-sided inequalities:                 0 (           0)
+    gen. nonlinear one-sided inequalities:          896 (         896)
+    linear two-sided inequalities:                    0 (           0)
+    quadratic two-sided inequalities:                 0 (           0)
+    gen. nonlinear two-sided inequalities:            0 (           0)
+Number of nonzeros in Jacobian:                    9412 (        9202)
+Number of nonzeros in Hessian:                     2112 (        2108)
+
+Knitro using the Interior-Point/Barrier Direct algorithm.
+
+  Iter      Objective      FeasError   OptError    ||Step||    CGits 
+--------  --------------  ----------  ----------  ----------  -------
+       0    4.024938e+06   1.278e-12
+       1    4.018286e+06   8.786e-02   1.000e+02   8.516e-01        0
+       2    3.947310e+06   5.395e-02   1.000e+02   7.840e+00        0
+       3    3.520163e+06   7.383e-01   1.000e+02   5.190e+01        0
+       4    3.384444e+06   4.605e-01   5.287e+01   2.359e+01        0
+       5    3.343399e+06   5.059e+00   2.671e+01   1.898e+01        0
+       6    3.336078e+06   3.314e-01   1.778e+01   7.458e+00        0
+       7    3.333703e+06   6.161e-02   1.266e+01   3.092e+00        0
+       8    3.331848e+06   1.954e-02   2.621e+00   3.199e+00        0
+       9    3.330312e+06   1.780e-02   6.442e-01   3.493e+00        0
+      10    3.329717e+06   1.117e-02   2.325e-01   2.879e+00        0
+      11    3.329671e+06   3.721e-03   5.142e-02   1.235e+00        0
+      12    3.329670e+06   6.826e-04   1.165e-02   4.090e-01        0
+      13    3.329670e+06   4.127e-05   6.844e-04   4.922e-02        0
+      14    3.329670e+06   5.253e-08   2.695e-07   2.159e-02        0
+
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =   3.32967009196129e+06
+Final feasibility error (abs / rel) =   5.25e-08 / 5.25e-08
+Final optimality error  (abs / rel) =   2.70e-07 / 2.70e-09
+# of iterations                     =         14 
+# of CG iterations                  =          0 
+# of function evaluations           =         17
+# of gradient evaluations           =         17
+# of Hessian evaluations            =         14
+Total program time (secs)           =       0.127 (     0.250 CPU time)
+Time spent in evaluations (secs)    =       0.096
+
+===============================================================================
+
+total computation time of KNITRO-IP: 1.766372e-01
+---------------- KNITRO- SQP Method for 2383-bus OPF result ----------------
+
+=======================================
+             Trial License
+       (NOT FOR COMMERCIAL USE)
+         Artelys Knitro 15.0.1
+=======================================
+
+Knitro using 1 thread.
+Knitro presolve eliminated 1 variable and 102 constraints.
+
+concurrent_evals         0
+feastol                  1e-06
+feastol_abs              5e-06
+ftol                     0.0001
+hessopt                  1
+maxit                    3000
+nlp_algorithm            4
+opttol                   1e-06
+opttol_abs               0.001
+outlev                   3
+xtol                     0.0001
+Knitro fixing 1 variable eliminated from the presolve.
+
+Problem Characteristics                                 (   Presolved)
+-----------------------
+Objective goal:  Minimize
+Objective type:  general
+Number of variables:                                766 (         765)
+    bounded below only:                               0 (           0)
+    bounded above only:                               0 (           0)
+    bounded below and above:                        526 (         527)
+    fixed:                                            1 (           0)
+    free:                                           239 (         238)
+Number of constraints:                             2275 (        2173)
+    linear equalities:                                3 (           3)
+    quadratic equalities:                             0 (           0)
+    gen. nonlinear equalities:                      480 (         480)
+    linear one-sided inequalities:                  896 (         794)
+    quadratic one-sided inequalities:                 0 (           0)
+    gen. nonlinear one-sided inequalities:          896 (         896)
+    linear two-sided inequalities:                    0 (           0)
+    quadratic two-sided inequalities:                 0 (           0)
+    gen. nonlinear two-sided inequalities:            0 (           0)
+Number of nonzeros in Jacobian:                    9412 (        9202)
+Number of nonzeros in Hessian:                     2112 (        2108)
+
+Knitro using the Sequential Quadratic Programming (SQP) algorithm.
+
+  Iter      Objective      FeasError   OptError    ||Step||    CGits 
+--------  --------------  ----------  ----------  ----------  -------
+       0    4.024938e+06   1.278e-12
+       1    3.373871e+06   2.672e+00   8.306e+01   7.440e+01        0
+       2    3.345657e+06   3.067e+00   8.306e+01   3.632e+01        0
+       3    3.335678e+06   7.222e+00   1.000e+02   3.435e+01        0
+       4    3.333819e+06   7.365e+00   8.204e+01   7.614e+00        0
+       5    3.332622e+06   6.679e+00   7.254e+01   6.239e+00        0
+       6    3.327564e+06   7.403e-01   1.000e+02   1.303e+01        0
+       7    3.327343e+06   2.427e-01   1.000e+02   9.867e+00        0
+       8    3.327277e+06   2.745e-01   6.555e+01   5.941e+00        0
+       9    3.237489e+06   2.178e+01   3.258e+01   5.324e+00        7
+      10    3.282131e+06   1.062e+01   1.011e+02   3.006e+00        2
+      11    3.304162e+06   5.321e+00   9.861e+01   3.292e+00        0
+      12    3.328733e+06   4.683e+00   1.000e+02   6.362e+00        0
+      13    3.328616e+06   4.097e+00   8.204e+01   5.137e+00        0
+      14    3.328944e+06   2.263e+00   1.736e+02   2.039e+00        9
+      15    3.329452e+06   1.535e-01   3.703e+00   4.681e+00        0
+      16    3.329503e+06   1.493e-02   1.678e+00   2.207e-01        0
+      17    3.329503e+06   1.493e-02   1.100e+00   7.690e-02        0
+      18    3.329503e+06   1.493e-02   1.100e+00   8.012e-02        0
+      19    3.329503e+06   1.493e-02   1.100e+00   7.988e-02        0
+      20    3.329670e+06   1.189e-04   2.553e-01   3.966e-01        0
+      21    3.329670e+06   5.021e-07   8.123e-05   1.700e-01        0
+
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =   3.32967009173221e+06
+Final feasibility error (abs / rel) =   5.02e-07 / 5.02e-07
+Final optimality error  (abs / rel) =   8.12e-05 / 8.12e-07
+# of iterations                     =         21 
+# of CG iterations                  =         18 
+# of function evaluations           =         69
+# of gradient evaluations           =         23
+# of Hessian evaluations            =         28
+Total program time (secs)           =       1.825 (     2.203 CPU time)
+Time spent in evaluations (secs)    =       0.217
+
+===============================================================================
+
+total computation time of KNITRO-SQP: 2.021721e+00
+>> 
