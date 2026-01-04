@@ -1,5 +1,8 @@
 clear; clc;
 
+%
+
+
 [mpc, mpopt] = opf_args('pglib_opf_case1888_rte');
 
 % Set solver options
@@ -123,10 +126,13 @@ convergence_results.average_computation_time = average_computation_time;
 fprintf('Results for case1888rte \n');
 fprintf('Success Count: %d\n', success_count);
 fprintf('Failure Count: %d\n', failure_count);
-fprintf('Total Iterations: %d\n\n', total_iterations);
-
-save('All_x0_LOS_f.mat','All_x_LOS','All_f_LOS');
-save('All_success_failure_index.mat','index_success','index_failure','failure_status');
+fprintf('Failure index: %d\n', index_failure.');
+fprintf('Failure index: [%s]\n', sprintf('%d, ', failure_status));
+fprintf('Failure status: [%s]\n', sprintf('%d, ', failure_status));
+fprintf('Total Iterations: %d\n', total_iterations);
+fprintf('Average Computation Time: %d\n\n', average_computation_time);
+% save('All_x_LOS_f.mat','All_x_LOS','All_f_LOS');
+% save('All_success_failure_index.mat','index_success','index_failure','failure_status');
 
 
 

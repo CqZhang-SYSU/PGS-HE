@@ -1,10 +1,21 @@
 clear; clc;
 
-[mpc, mpopt] = opf_args('pglib_opf_case1888_rte');
+% This script summarizes the solution results for the
+% pglib_opf_case1888_rte system under N = 100 completely random initial points.
+% status = 2 represents "Infeasible_Problem_Detected" 
 
+% Results for pglib_opf_case1888_rte: 
+% Success Count: 97
+% Failure Count: 3
+% Failure Iterations Index: [12, 49, 98]
+% Failure Iterations status: [2, 2, 2]
+% Total Iterations: 100
+
+
+
+[mpc, mpopt] = opf_args('pglib_opf_case1888_rte');
 % Set solver options
 mpopt = mpoption; 
-
 % define named indices into data matrices
 [PQ, PV, REF, NONE, BUS_I, BUS_TYPE, PD, QD, GS, BS, BUS_AREA, VM, ...
     VA, BASE_KV, ZONE, VMAX, VMIN, LAM_P, LAM_Q, MU_VMAX, MU_VMIN] = idx_bus;
@@ -15,7 +26,6 @@ mpopt = mpoption;
     TAP, SHIFT, BR_STATUS, PF, QF, PT, QT, MU_SF, MU_ST, ...
     ANGMIN, ANGMAX, MU_ANGMIN, MU_ANGMAX] = idx_brch;
 [PW_LINEAR, POLYNOMIAL, MODEL, STARTUP, SHUTDOWN, NCOST, COST] = idx_cost;
-
 % add zero columns to bus, gen, branch for multipliers, etc if needed
 nb   = size(mpc.bus, 1);    %% number of buses
 nl   = size(mpc.branch, 1); %% number of branches
@@ -120,9 +130,11 @@ convergence_results.average_computation_time = average_computation_time;
 % Save results
 %% -----------------------------
 % Display summary for each case
-fprintf('Results for case1888rte \n');
+fprintf('Results for pglib_opf_case1888_rte \n');
 fprintf('Success Count: %d\n', success_count);
 fprintf('Failure Count: %d\n', failure_count);
+fprintf('Failure Iterations Index: [%s]\n', strjoin(string(index_failure), ', '));
+fprintf('Failure Iterations status: [%s]\n', strjoin(string(failure_status), ', '));
 fprintf('Total Iterations: %d\n', total_iterations);
 fprintf('Average Computation Time: %d\n\n', average_computation_time);
 % save('All_x_LOS_f.mat','All_x_LOS','All_f_LOS');
