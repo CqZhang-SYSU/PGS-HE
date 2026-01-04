@@ -1,0 +1,283 @@
+---------------- MIPS for case9mod_self OPF result  ----------------
+MATPOWER Interior Point Solver -- MIPS, Version 1.5.2, 12-Jul-2025
+ (using built-in linear solver)
+ it    objective   step size   feascond     gradcond     compcond     costcond  
+----  ------------ --------- ------------ ------------ ------------ ------------
+  0     5151.0396             2.45045e-11      57.7625      49.2364            0
+  1     4328.5907    0.33945   0.00557152       4.5104      10.6294    0.0542833
+  2      4322.224    0.14458   0.00127041     0.163316      1.13116  0.000444333
+  3     4877.0258    0.21263  0.000398726    0.0241483     0.193869    0.0387371
+  4     4813.6608   0.023608  2.27381e-06   0.00671714    0.0417877   0.00425925
+  5     4709.5599   0.089924  3.05585e-05   0.00197598   0.00610528   0.00702736
+  6     4678.2461   0.014878  1.64365e-06  0.000110329  0.000634875   0.00212881
+  7     4676.6557   0.011403  4.76058e-07  0.000362381  6.47112e-05   0.00010835
+  8     4676.2577 0.00014803  6.46487e-11  1.19384e-08  6.47092e-06  2.71232e-05
+  9     4676.2421 8.4573e-05  2.22677e-11  6.95367e-10  6.46889e-07  1.06196e-06
+ 10     4676.2405 8.5022e-06  2.24893e-13    7.042e-12  6.46869e-08   1.0657e-07
+Converged!
+objective and constraint evaluation: 11
+total computation time of mips: 4.984640e-02
+---------------- IPOPT-mumps for case9mod_self OPF result ----------------
+This is Ipopt version 3.14.4, running with linear solver MUMPS 5.4.1.
+
+Number of nonzeros in equality constraint Jacobian...:      115
+Number of nonzeros in inequality constraint Jacobian.:       72
+Number of nonzeros in Lagrangian Hessian.............:       66
+
+Total number of variables............................:       24
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:       15
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:       19
+Total number of inequality constraints...............:       18
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:       18
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0 5.1539824e+003 9.85e-003 1.33e+001   0.0 0.00e+000    -  0.00e+000 0.00e+000   0
+   1 4.7695775e+003 9.58e-003 6.15e+001  -0.1 5.63e+000    -  4.04e-001 6.24e-002f  1
+   2 4.7147168e+003 7.50e-003 4.18e+002  -0.7 2.19e-001    -  1.00e+000 2.19e-001f  1
+   3 4.6809770e+003 6.08e-006 5.27e+000  -1.7 1.99e-002    -  1.00e+000 1.00e+000f  1
+   4 4.6764042e+003 7.32e-007 4.36e-001  -3.6 4.36e-003   2.0 1.00e+000 1.00e+000f  1
+   5 4.6758355e+003 8.17e-006 6.97e-001  -4.5 1.18e-002   1.5 1.00e+000 9.72e-001f  1
+   6 4.6736403e+003 8.41e-005 8.82e+000  -5.3 9.61e-002   1.0 1.00e+000 5.89e-001F  1
+   7 4.6735659e+003 8.40e-005 3.20e+001  -5.9 4.24e-001   0.6 1.00e+000 1.37e-003h  1
+   8 4.6701743e+003 7.82e-008 4.30e-002  -5.9 3.36e-003    -  1.00e+000 1.00e+000h  1
+   9 4.6701709e+003 7.38e-010 4.81e-004  -7.8 3.94e-006    -  1.00e+000 9.91e-001h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10 4.6701708e+003 2.78e-013 1.78e-007 -11.0 3.98e-008    -  1.00e+000 1.00e+000h  1
+  11 4.6701708e+003 1.12e-014 4.39e-012 -11.0 1.45e-011    -  1.00e+000 1.00e+000h  1
+
+Number of Iterations....: 11
+
+                                   (scaled)                 (unscaled)
+Objective...............:  1.1030844894155847e+002   4.6701708163703734e+003
+Dual infeasibility......:  4.3936976606339278e-012   1.8601765129993356e-010
+Constraint violation....:  1.1158048214244199e-014   1.1158048214244199e-014
+Variable bound violation:  9.9999872826828096e-009   9.9999872826828096e-009
+Complementarity.........:  1.0001027182991557e-011   4.2341729696951075e-010
+Overall NLP error.......:  1.0001027182991557e-011   4.2341729696951075e-010
+
+
+Number of objective function evaluations             = 13
+Number of objective gradient evaluations             = 12
+Number of equality constraint evaluations            = 13
+Number of inequality constraint evaluations          = 13
+Number of equality constraint Jacobian evaluations   = 12
+Number of inequality constraint Jacobian evaluations = 12
+Number of Lagrangian Hessian evaluations             = 11
+Total seconds in IPOPT                               = 0.039
+
+EXIT: Optimal Solution Found.
+total computation time of IPOPT-mumps: 4.984640e-02
+---------------- IPOPT-ma97 for case9mod_self OPF result ----------------
+This is Ipopt version 3.14.4, running with linear solver ma97.
+
+Number of nonzeros in equality constraint Jacobian...:      115
+Number of nonzeros in inequality constraint Jacobian.:       72
+Number of nonzeros in Lagrangian Hessian.............:       66
+
+Total number of variables............................:       24
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:       15
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:       19
+Total number of inequality constraints...............:       18
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:       18
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0 5.1539824e+003 9.85e-003 1.33e+001   0.0 0.00e+000    -  0.00e+000 0.00e+000   0
+   1 4.7695775e+003 9.58e-003 6.15e+001  -0.1 5.63e+000    -  4.04e-001 6.24e-002f  1
+   2 4.7147168e+003 7.50e-003 4.18e+002  -0.7 2.19e-001    -  1.00e+000 2.19e-001f  1
+   3 4.6809770e+003 6.08e-006 5.27e+000  -1.7 1.99e-002    -  1.00e+000 1.00e+000f  1
+   4 4.6764042e+003 7.32e-007 4.36e-001  -3.6 4.36e-003   2.0 1.00e+000 1.00e+000f  1
+   5 4.6758355e+003 8.17e-006 6.97e-001  -4.5 1.18e-002   1.5 1.00e+000 9.72e-001f  1
+   6 4.6736403e+003 8.41e-005 8.82e+000  -5.3 9.61e-002   1.0 1.00e+000 5.89e-001F  1
+   7 4.6735659e+003 8.40e-005 3.20e+001  -5.9 4.24e-001   0.6 1.00e+000 1.37e-003h  1
+   8 4.6701743e+003 7.82e-008 4.30e-002  -5.9 3.36e-003    -  1.00e+000 1.00e+000h  1
+   9 4.6701709e+003 7.38e-010 4.81e-004  -7.8 3.94e-006    -  1.00e+000 9.91e-001h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10 4.6701708e+003 2.63e-013 1.78e-007 -11.0 3.98e-008    -  1.00e+000 1.00e+000h  1
+  11 4.6701708e+003 8.79e-015 3.76e-012 -11.0 1.45e-011    -  1.00e+000 1.00e+000h  1
+
+Number of Iterations....: 11
+
+                                   (scaled)                 (unscaled)
+Objective...............:  1.1030844894156053e+002   4.6701708163704607e+003
+Dual infeasibility......:  3.7587293548011115e-012   1.5913475629348094e-010
+Constraint violation....:  8.7871758880917582e-015   8.7871758880917582e-015
+Variable bound violation:  9.9999872826828096e-009   9.9999872826828096e-009
+Complementarity.........:  1.0001027182991454e-011   4.2341729696950636e-010
+Overall NLP error.......:  1.0001027182991454e-011   4.2341729696950636e-010
+
+
+Number of objective function evaluations             = 13
+Number of objective gradient evaluations             = 12
+Number of equality constraint evaluations            = 13
+Number of inequality constraint evaluations          = 13
+Number of equality constraint Jacobian evaluations   = 12
+Number of inequality constraint Jacobian evaluations = 12
+Number of Lagrangian Hessian evaluations             = 11
+Total seconds in IPOPT                               = 0.034
+
+EXIT: Optimal Solution Found.
+total computation time of IPOPT-ma97: 1.427161e+00
+---------------- KNITRO- Interior Point Method for case9mod_self OPF result ----------------
+
+=======================================
+             Trial License
+       (NOT FOR COMMERCIAL USE)
+         Artelys Knitro 15.0.1
+=======================================
+
+Knitro using 1 thread.
+Knitro presolve eliminated 1 variable and 0 constraints.
+
+concurrent_evals         0
+feastol                  1e-06
+feastol_abs              5e-06
+ftol                     0.0001
+hessopt                  1
+maxit                    3000
+nlp_algorithm            1
+opttol                   1e-06
+opttol_abs               0.001
+outlev                   3
+xtol                     0.0001
+Knitro fixing 1 variable eliminated from the presolve.
+
+Problem Characteristics                                 (   Presolved)
+-----------------------
+Objective goal:  Minimize
+Objective type:  general
+Number of variables:                                 24 (          23)
+    bounded below only:                               0 (           0)
+    bounded above only:                               0 (           0)
+    bounded below and above:                         15 (          15)
+    fixed:                                            1 (           0)
+    free:                                             8 (           8)
+Number of constraints:                               36 (          36)
+    linear equalities:                                0 (           0)
+    quadratic equalities:                             0 (           0)
+    gen. nonlinear equalities:                       18 (          18)
+    linear one-sided inequalities:                    0 (           0)
+    quadratic one-sided inequalities:                 0 (           0)
+    gen. nonlinear one-sided inequalities:           18 (          18)
+    linear two-sided inequalities:                    0 (           0)
+    quadratic two-sided inequalities:                 0 (           0)
+    gen. nonlinear two-sided inequalities:            0 (           0)
+Number of nonzeros in Jacobian:                     186 (         180)
+Number of nonzeros in Hessian:                       66 (          62)
+
+Knitro using the Interior-Point/Barrier Direct algorithm.
+
+  Iter      Objective      FeasError   OptError    ||Step||    CGits 
+--------  --------------  ----------  ----------  ----------  -------
+       0    5.151040e+03   2.444e-10
+       1    4.186703e+03   2.373e-02   2.195e+01   3.624e-01        0
+       2    3.639154e+03   2.180e-02   2.156e+01   2.734e-01        0
+       3    4.878866e+03   1.454e-02   2.482e+01   5.386e-01        0
+       4    4.691390e+03   4.320e-04   4.266e+00   7.649e-02        0
+       5    4.682934e+03   2.806e-04   3.049e-04   9.245e-02        1
+       6    4.670222e+03   1.320e-06   2.142e-03   6.109e-03        0
+       7    4.670172e+03   1.873e-09   1.194e-05   2.367e-05        0
+
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =   4.67017151945131e+03
+Final feasibility error (abs / rel) =   1.87e-09 / 1.87e-09
+Final optimality error  (abs / rel) =   1.19e-05 / 1.28e-07
+# of iterations                     =          7 
+# of CG iterations                  =          1 
+# of function evaluations           =         11
+# of gradient evaluations           =         10
+# of Hessian evaluations            =          7
+Total program time (secs)           =       0.023 (     0.031 CPU time)
+Time spent in evaluations (secs)    =       0.021
+
+===============================================================================
+
+total computation time of KNITRO-IP: 3.892640e-02
+---------------- KNITRO- SQP Method for case9mod_self OPF result ----------------
+
+=======================================
+             Trial License
+       (NOT FOR COMMERCIAL USE)
+         Artelys Knitro 15.0.1
+=======================================
+
+Knitro using 1 thread.
+Knitro presolve eliminated 1 variable and 0 constraints.
+
+concurrent_evals         0
+feastol                  1e-06
+feastol_abs              5e-06
+ftol                     0.0001
+hessopt                  1
+maxit                    3000
+nlp_algorithm            4
+opttol                   1e-06
+opttol_abs               0.001
+outlev                   3
+xtol                     0.0001
+Knitro fixing 1 variable eliminated from the presolve.
+
+Problem Characteristics                                 (   Presolved)
+-----------------------
+Objective goal:  Minimize
+Objective type:  general
+Number of variables:                                 24 (          23)
+    bounded below only:                               0 (           0)
+    bounded above only:                               0 (           0)
+    bounded below and above:                         15 (          15)
+    fixed:                                            1 (           0)
+    free:                                             8 (           8)
+Number of constraints:                               36 (          36)
+    linear equalities:                                0 (           0)
+    quadratic equalities:                             0 (           0)
+    gen. nonlinear equalities:                       18 (          18)
+    linear one-sided inequalities:                    0 (           0)
+    quadratic one-sided inequalities:                 0 (           0)
+    gen. nonlinear one-sided inequalities:           18 (          18)
+    linear two-sided inequalities:                    0 (           0)
+    quadratic two-sided inequalities:                 0 (           0)
+    gen. nonlinear two-sided inequalities:            0 (           0)
+Number of nonzeros in Jacobian:                     186 (         180)
+Number of nonzeros in Hessian:                       66 (          62)
+
+Knitro using the Sequential Quadratic Programming (SQP) algorithm.
+
+  Iter      Objective      FeasError   OptError    ||Step||    CGits 
+--------  --------------  ----------  ----------  ----------  -------
+       0    5.151040e+03   2.444e-10
+       1    4.702408e+03   9.314e-04   3.308e+01   1.579e-01        0
+       2    4.695510e+03   4.194e-04   1.625e+00   1.192e-01        0
+       3    4.694669e+03   3.835e-04   1.776e+01   4.815e-02        0
+       4    4.691719e+03   3.648e-04   2.703e+01   7.441e-02        0
+       5    4.678749e+03   2.155e-04   1.231e-01   7.975e-02        0
+       6    4.670191e+03   4.955e-07   1.326e-03   3.939e-03        0
+       7    4.670171e+03   2.748e-12   2.273e-08   9.121e-06        0
+
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =   4.67017144710415e+03
+Final feasibility error (abs / rel) =   2.75e-12 / 2.75e-12
+Final optimality error  (abs / rel) =   2.27e-08 / 2.44e-10
+# of iterations                     =          7 
+# of CG iterations                  =          0 
+# of function evaluations           =         12
+# of gradient evaluations           =          9
+# of Hessian evaluations            =          7
+Total program time (secs)           =       0.037 (     0.047 CPU time)
+Time spent in evaluations (secs)    =       0.021
+
+===============================================================================
+
+total computation time of KNITRO-SQP: 1.016721e-01
