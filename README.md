@@ -16,8 +16,10 @@ Contains **initial point**  from:
 
 ### Required Toolboxes
 - **MATPOWER 8.1**
-- **MIPS**
-- **IPOPT** (recommended version **v3.14+**)
+- **MIPS** (version **1.5.1**)
+- **IPOPT** (recommended version **v3.14+** or **MexIPOPT**) 
+- **HSL** (**ma57 or ma97**)
+- **KNITRO** (recommended version **15.0++**)
 
 ---
 
