@@ -1,5 +1,5 @@
 % This script implements the case2383wp system 
-% using MIPS, IPOPT with the MUMPS linear solver, IPOPT with the map7 linear solver,
+% using MIPS, IPOPT with the MUMPS linear solver, IPOPT with the ma97 linear solver,
 % KNITRO using Interior-Point/Barrier Direct algorithm,
-% and KNITRO using  Quadratic Programming (SQP) algorithm.
+% and KNITRO using  Quadratic Programming (SQP) algorithm
 % under the same feasible point.
