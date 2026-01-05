@@ -21,10 +21,10 @@ Contains **ACOPF test cases** collected from:
 
 ### MATLAB Path Configuration
 ```matlab
-addpath(genpath('/path/to/matpower4.1'));
+addpath(genpath('/path/to/matpower8.1'));
 addpath('/path/to/data');
-
-
+```
+---
 ### ⚙️ IPOPT-Based Implementation (`/`)
 - `ipoptopf_main.m`  
   Main function for **feasible region characterization** using IPOPT.
