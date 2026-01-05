@@ -1,7 +1,7 @@
 clear; clc;
 
 % This script implements the pglib_opf_case1888_rte system 
-% using IPOPT with the MA97 (or UMPS) linear solver 
+% using IPOPT with the MA97 (or MUMPS) linear solver 
 % under N= 100 completely random initial points.
 
 
@@ -170,6 +170,7 @@ fprintf('Average Computation Time: %d\n\n', average_computation_time);
 %    Insufficient_Memory                = -102,
 %    Internal_Error                     = -199
 %    }
+
 
 
 
