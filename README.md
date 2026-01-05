@@ -3,13 +3,6 @@ This repository contains the code and results associated with the paper titled:
 
 
 
-
-
-
-
-
-
-
 ### 📌 Case Data (`case/`)
 Contains **ACOPF test cases** collected from:
 - [Matpower 8.1](https://matpower.org)
@@ -17,6 +10,20 @@ Contains **ACOPF test cases** collected from:
 - [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) : multipue local optimal solutions (LOSs)
 
 ---
+## ⚙️ Environment Setup
+
+### Required Toolboxes
+- **MATPOWER 8.1**
+- **MIPS**
+- **IPOPT** (recommended version **v3.14+**)
+
+---
+
+### MATLAB Path Configuration
+```matlab
+addpath(genpath('/path/to/matpower4.1'));
+addpath('/path/to/data');
+
 
 ### ⚙️ IPOPT-Based Implementation (`/`)
 - `ipoptopf_main.m`  
@@ -54,17 +61,7 @@ Contains **ACOPF test cases** collected from:
 
 
 
----
 
-## ⚙️ Environment Setup
 
-### Required Toolboxes
-- **MATPOWER 8.1**
-- **MIPS**
-- **IPOPT** (recommended version **v3.14+**)
 
-### MATLAB Path Configuration
-```matlab
-addpath(genpath('/path/to/matpower4.1'));
-addpath('/path/to/data');
 
