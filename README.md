@@ -23,16 +23,14 @@ Contains **initial point**  from:
 
 ---
 
+
+
+<!--
 ### MATLAB Path Configuration
 ```matlab
 addpath(genpath('/path/to/matpower8.1'));
 addpath('/path/to/data');
 
-
-
-
-<!--
----
 ### ⚙️ IPOPT-Based Implementation (`/`)
 - `ipoptopf_main.m`  
   Main function for **feasible region characterization** using IPOPT.
@@ -40,16 +38,12 @@ addpath('/path/to/data');
 - `ipopt_convergence_main.m`  
   Automated **convergence testing** over all test cases.
 
----
-
 ### ⚙️ KNITRO-Based Implementation (`/`)
 - `ipoptopf_main.m`  
   Main function for **feasible region characterization** using IPOPT.
 
 - `ipopt_convergence_main.m`  
   Automated **convergence testing** over all test cases.
-
----
 
 ### ⚙️ MIPS-Based Implementation (`/`)
 - `mips_opf_main.m`  
@@ -60,16 +54,7 @@ addpath('/path/to/data');
 
 > **Note:** Due to the weaker convergence robustness of MIPS compared with IPOPT, **extensive random sampling** is required.
 
----
-
 ### 🧪 Reviewer Verification Script
 - `reviewer #4_comment4.m`  
   Implements the **WB2 analytic feasible region formulation**, used to verify theoretical results in response to **Reviewer #1**.
-
-
 -->
-
-
-
-
-
