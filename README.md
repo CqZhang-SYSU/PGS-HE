@@ -27,7 +27,11 @@ Contains **initial point**  from:
 ```matlab
 addpath(genpath('/path/to/matpower8.1'));
 addpath('/path/to/data');
-```
+
+
+
+
+<!--
 ---
 ### ⚙️ IPOPT-Based Implementation (`/`)
 - `ipoptopf_main.m`  
@@ -63,7 +67,7 @@ addpath('/path/to/data');
   Implements the **WB2 analytic feasible region formulation**, used to verify theoretical results in response to **Reviewer #1**.
 
 
-
+-->
 
 
 
