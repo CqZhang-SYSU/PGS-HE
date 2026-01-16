@@ -4,7 +4,7 @@ This repository contains the code and results associated with the paper titled:
 
 
 ### 📌 Case Data (`../TableVI/casename/data/`)
-Contains **ACOPF test cases** collected from:
+Contains **ACOPF test case** collected from:
 - [Matpower 8.1](https://matpower.org)
 - [PGLIB-OPF](https://github.com/power-grid-lib/pglib-opf)
 - [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) : Cases satisfy multipue local optimal solutions (LOSs)
