@@ -7,7 +7,7 @@ This repository contains the code and results associated with the paper titled:
 Contains **ACOPF test cases** collected from:
 - [Matpower 8.1](https://matpower.org)
 - [PGLIB-OPF](https://github.com/power-grid-lib/pglib-opf)
-- [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) : Cases satify multipue local optimal solutions (LOSs)
+- [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) : Cases satisfy multipue local optimal solutions (LOSs)
   
 Contains **initial point**  from:
 
