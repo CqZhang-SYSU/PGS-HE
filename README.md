@@ -11,11 +11,11 @@ Contains **ACOPF test cases** collected from:
   
 Contains **initial point** : 
 
-The algorithm contains two types of initial points: random infeasible initial points and random feasible initial points.
+The algorithm contains two types of initial points: random infeasible initial point and random feasible initial point.
 
-**Random infeasible initial points** refer to initializations that are bound-feasible but infeasible with respect to the nonlinear AC OPF constraints, where all decision variables are randomly sampled within their prescribed lower and upper bounds.
+**Random infeasible initial point** refer to initializations that are bound-feasible but infeasible with respect to the nonlinear AC OPF constraints, where all decision variables are randomly sampled within their prescribed lower and upper bounds.
 
-**Random feasible initial points** are sampled directly from the feasible region of the AC OPF problem, i.e., all nonlinear power flow and operational constraints are satisfied at initialization.
+**Random feasible initial point** are sampled directly from the feasible region of the AC OPF problem, i.e., all nonlinear power flow and operational constraints are satisfied at initialization.
 
 ---
 ## ⚙️ Environment Setup
