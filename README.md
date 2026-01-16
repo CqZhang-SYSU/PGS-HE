@@ -3,7 +3,7 @@ This repository contains the code and results associated with the paper titled:
 
 
 
-### 📌 Case Data (`data/`)
+### 📌 Case Data (`../casename/data/`)
 Contains **ACOPF test cases** collected from:
 - [Matpower 8.1](https://matpower.org)
 - [PGLIB-OPF](https://github.com/power-grid-lib/pglib-opf)
@@ -22,15 +22,13 @@ Contains **initial point**  from:
 - **KNITRO** (recommended version **15.0++**)
 
 ---
-
-
-
-<!--
 ### MATLAB Path Configuration
 ```matlab
 addpath(genpath('/path/to/matpower8.1'));
 addpath('/path/to/data');
 
+
+<!--
 ### ⚙️ IPOPT-Based Implementation (`/`)
 - `ipoptopf_main.m`  
   Main function for **feasible region characterization** using IPOPT.
