@@ -23,7 +23,7 @@ The algorithm contains two types of initial points: random infeasible initial po
 ### Required Toolboxes
 - **MATPOWER 8.1**
 - **MIPS** (version **1.5.1**)
-- **IPOPT** (recommended version **v3.14+** or **MexIPOPT**) 
+- **MexIPOPT** (or **IPOPT** recommended version **v3.14+**) (https://github.com/ebertolazzi/mexIPOPT)
 - **HSL** (**ma57 or ma97**)
 - **KNITRO** (recommended version **15.0++**)
 
