@@ -10,16 +10,27 @@ Contains **ACOPF test case** collected from:
 - [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) : Cases satisfy multipue local optimal solutions (LOSs)
 
 
-### 📌Table VI
-Contains **initial point** : 
 
-The algorithm contains two types of initial points: random infeasible initial point and random feasible initial point.
+
+### 📌Table VI - AC OPF Solver Comparison (IPOPT vs. KNITRO)
+
+This folder contains all the necessary data, source code, and benchmark results to reproduce **Table VI** in our paper. 
+
+Table VI presents a comprehensive performance comparison between two state-of-the-art nonlinear programming solvers—**IPOPT** and **KNITRO**—applied to the Alternating Current Optimal Power Flow (AC OPF) problem. Crucially, both solvers are initialized from **identical starting points** to ensure a fair and rigorous evaluation of their convergence behavior and computational efficiency.
+
+Contains **initial point** : It contains two types of initial points: random infeasible initial point and random feasible initial point.
 
 **Random infeasible initial point** refer to initializations that are bound-feasible but infeasible with respect to the nonlinear AC OPF constraints, where all decision variables are randomly sampled within their prescribed lower and upper bounds.
 
 **Random feasible initial point** are sampled directly from the feasible region of the AC OPF problem, i.e., all nonlinear power flow and operational constraints are satisfied at initialization.
 
 Contains **test result** : 
+
+
+
+
+
+
 
 ---
 ## ⚙️ Environment Setup
