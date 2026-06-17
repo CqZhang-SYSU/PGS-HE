@@ -3,12 +3,14 @@ This repository contains the code and results associated with the paper titled:
 
 
 
-### 📌 Case Data (`../Cases/Case_mod`)
+### 📌 Case Data (`../Cases/`)
 Contains **ACOPF test case** collected from:
 - [Matpower 8.1](https://matpower.org)
 - [PGLIB-OPF](https://github.com/power-grid-lib/pglib-opf)
 - [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) : Cases satisfy multipue local optimal solutions (LOSs)
-  
+
+
+### 📌Table VI
 Contains **initial point** : 
 
 The algorithm contains two types of initial points: random infeasible initial point and random feasible initial point.
@@ -16,6 +18,8 @@ The algorithm contains two types of initial points: random infeasible initial po
 **Random infeasible initial point** refer to initializations that are bound-feasible but infeasible with respect to the nonlinear AC OPF constraints, where all decision variables are randomly sampled within their prescribed lower and upper bounds.
 
 **Random feasible initial point** are sampled directly from the feasible region of the AC OPF problem, i.e., all nonlinear power flow and operational constraints are satisfied at initialization.
+
+Contains **test result** : 
 
 ---
 ## ⚙️ Environment Setup
