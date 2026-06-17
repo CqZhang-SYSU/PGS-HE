@@ -20,7 +20,7 @@ This folder contains modified cases adapted from [OptEnergyLocalOpt](https://web
 - **case9mod**: Modified 9‑bus system with reactive power generation lower bounds set to -3 MVars and demand scaled to 60%.
 - **case118mod**: Modified 118‑bus system with generator real and reactive power bounds scaled by a factor of 7.
 
-The above three cases are sourced from the OptEnergyLocalOpt repository.
+The above three cases are sourced from the [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) repository.
 
 - **case9mod_self**: A newly constructed 9‑bus benchmark with voltage bounds [0.98, 1.02], demand scaled to 60%, and reactive power lower bounds set to -12 MVars.
 
