@@ -39,10 +39,8 @@ To investigate solver robustness and local convergence properties, we design two
 
 | Solver | Version | Key Options |
 | :--- | :--- | :--- |
-| **IPOPT** | 3.14+ | `linear_solver = mumps or ma57`, 'max_iter' = 3000, 'acceptable_compl_inf_tol' = 0.001, 'acceptable_constr_viol_tol' = 5e-06,
-'acceptable_tol' = 1e-08, 'compl_inf_tol' = 1e-05, 'constr_viol_tol' = 5e-06, 'dual_inf_tol' = 0.1, 'tol' = 1e-08', mu_strategy' = 'adaptive'; |
-| **KNITRO** | 15.0+ | `algorithm = 1` (Interior/Direct), 'maxit' =
-3000, 'feastol' = 1e-06, 'feastol_abs' = 5e-06, 'ftol' = 0.0001, 'hessopt' =1, 'opttol' = 1e-06, 'opttol_abs' = 0.001, 'xtol' = 0.0001 |
+| **IPOPT** | 3.14+ | `linear_solver = mumps or ma57`,<br>`max_iter = 3000`,<br>`acceptable_compl_inf_tol = 0.001`,<br>`acceptable_constr_viol_tol = 5e-06`,<br>`acceptable_tol = 1e-08`,<br>`compl_inf_tol = 1e-05`,<br>`constr_viol_tol = 5e-06`,<br>`dual_inf_tol = 0.1`,<br>`tol = 1e-08`,<br>`mu_strategy = adaptive` |
+| **KNITRO** | 15.0+ | `algorithm = 1` (Interior/Direct),<br>`maxit = 3000`,<br>`feastol = 1e-06`,<br>`feastol_abs = 5e-06`,<br>`ftol = 0.0001`,<br>`hessopt = 1`,<br>`opttol = 1e-06`,<br>`opttol_abs = 0.001`,<br>`xtol = 0.0001` |
 
 
 ## 🚀 How to Reproduce
