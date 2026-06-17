@@ -5,7 +5,11 @@ This repository contains the code and results associated with the paper titled:
 
 ### 📌 Case Data
 
-This directory contains all AC OPF test cases used in our experiments. The cases are organized into two separate folders based on their sources and characteristics.
+This directory contains all AC OPF test cases used in our experiments. The cases are collected from the following sources:
+
+- [MATPOWER 8.1](https://matpower.org)
+- [PGLIB-OPF](https://github.com/power-grid-lib/pglib-opf)
+- [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) – these cases are known to possess multiple local optimal solutions.
 
 
 #### 1. `case_mod/`
