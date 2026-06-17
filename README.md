@@ -10,7 +10,15 @@ Contains **ACOPF test case** collected from:
 - [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) : Cases satisfy multipue local optimal solutions (LOSs)
 - case9mod_self: modified by author
 
+LMBM3_50: 3‑bus system with ±10% voltage bounds, exhibiting two local optima.
 
+case9mod: Modified 9‑bus system with lower bounds on reactive power generation set to -3 MVars and demand scaled to 60%.
+
+case118mod: Modified 118‑bus system with generator real and reactive power bounds scaled by 7.
+
+case9mod_self: Newly constructed 9‑bus benchmark with voltage bounds [0.98, 1.02], demand scaled to 60%, and reactive power lower bounds set to -12 MVars.
+
+PGLib cases: Standard congested and typical operating condition cases from PGLib OPF v23.07.
 
 
 ### 📌Table VI - AC OPF Solver Comparison (IPOPT vs. KNITRO)
