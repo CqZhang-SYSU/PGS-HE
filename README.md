@@ -4,21 +4,21 @@ This repository contains the code and results associated with the paper titled:
 
 
 ### 📌 Case Data (`../Cases/`)
-Contains **ACOPF test case** collected from:
-- [Matpower 8.1](https://matpower.org)
+
+This directory contains all AC OPF test cases used in our experiments. The cases are collected from the following sources:
+
+- [MATPOWER 8.1](https://matpower.org)
 - [PGLIB-OPF](https://github.com/power-grid-lib/pglib-opf)
-- [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) : Cases satisfy multipue local optimal solutions (LOSs)
-- case9mod_self: modified by author
+- [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) – cases known to possess multiple local optimal solutions (LOSs).
 
-LMBM3_50: 3‑bus system with ±10% voltage bounds, exhibiting two local optima.
+In addition, we include several modified or custom-built cases:
 
-case9mod: Modified 9‑bus system with lower bounds on reactive power generation set to -3 MVars and demand scaled to 60%.
+- **LMBM3_50**: A 3‑bus system with ±10% voltage bounds, exhibiting two distinct local optima.
+- **case9mod**: Modified 9‑bus system with reactive power generation lower bounds set to -3 MVars and demand scaled to 60%.
+- **case118mod**: Modified 118‑bus system with generator real and reactive power bounds scaled by a factor of 7.
+- **case9mod_self**: Newly constructed 9‑bus benchmark with voltage bounds [0.98, 1.02], demand scaled to 60%, and reactive power lower bounds set to -12 MVars.
 
-case118mod: Modified 118‑bus system with generator real and reactive power bounds scaled by 7.
-
-case9mod_self: Newly constructed 9‑bus benchmark with voltage bounds [0.98, 1.02], demand scaled to 60%, and reactive power lower bounds set to -12 MVars.
-
-PGLib cases: Standard congested and typical operating condition cases from PGLib OPF v23.07.
+The **PGLib cases** correspond to standard congested and typical operating conditions from PGLib OPF v23.07.
 
 
 ### 📌Table VI - AC OPF Solver Comparison (IPOPT vs. KNITRO)
