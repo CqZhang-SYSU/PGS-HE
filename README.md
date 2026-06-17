@@ -3,22 +3,36 @@ This repository contains the code and results associated with the paper titled:
 
 
 
-### 📌 Case Data (`../Cases/`)
+### 📌 Case Data
 
-This directory contains all AC OPF test cases used in our experiments. The cases are collected from the following sources:
+This directory contains all AC OPF test cases used in our experiments. The cases are organized into two separate folders based on their sources and characteristics.
 
-- [MATPOWER 8.1](https://matpower.org)
-- [PGLIB-OPF](https://github.com/power-grid-lib/pglib-opf)
-- [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) – cases known to possess multiple local optimal solutions (LOSs).
+---
 
-That are:
+#### 1. `case_mod/`
+
+This folder contains modified cases adapted from [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/), along with one newly constructed benchmark:
 
 - **LMBM3_50**: A 3‑bus system with ±10% voltage bounds, exhibiting two distinct local optima.
 - **case9mod**: Modified 9‑bus system with reactive power generation lower bounds set to -3 MVars and demand scaled to 60%.
 - **case118mod**: Modified 118‑bus system with generator real and reactive power bounds scaled by a factor of 7.
-- **case9mod_self**: Newly constructed 9‑bus benchmark with voltage bounds [0.98, 1.02], demand scaled to 60%, and reactive power lower bounds set to -12 MVars.
 
-The **PGLib cases** correspond to standard congested and typical operating conditions from PGLib OPF v23.07.
+The above three cases are sourced from the OptEnergyLocalOpt repository.
+
+- **case9mod_self**: A newly constructed 9‑bus benchmark with voltage bounds [0.98, 1.02], demand scaled to 60%, and reactive power lower bounds set to -12 MVars.
+
+---
+
+#### 2. `cases/` (from MATPOWER 8.1 and PGLib)
+
+This folder contains standard benchmark cases from established repositories:
+
+- **pglib_opf_case200_activ__api** – from PGLib OPF v23.07
+- **pglib_opf_case240_pserc** – from PGLib OPF v23.07
+
+The above PGLib cases correspond to standard congested and typical operating conditions.
+
+- **case2383wp** – from MATPOWER 8.1
 
 
 ### 📌Table VI - AC OPF Solver Comparison (IPOPT vs. KNITRO)
