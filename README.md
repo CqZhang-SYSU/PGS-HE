@@ -11,7 +11,7 @@ This directory contains all AC OPF test cases used in our experiments. The cases
 - [PGLIB-OPF](https://github.com/power-grid-lib/pglib-opf)
 - [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) – cases known to possess multiple local optimal solutions (LOSs).
 
-In addition, we include several modified or custom-built cases:
+That are:
 
 - **LMBM3_50**: A 3‑bus system with ±10% voltage bounds, exhibiting two distinct local optima.
 - **case9mod**: Modified 9‑bus system with reactive power generation lower bounds set to -3 MVars and demand scaled to 60%.
