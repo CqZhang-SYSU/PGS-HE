@@ -3,7 +3,7 @@ This repository contains the code and results associated with the paper titled:
 
 
 
-### 📌 Case Data (`../TableVI/casename/data/`)
+### 📌 Case Data (`../Cases/Case_mod`)
 Contains **ACOPF test case** collected from:
 - [Matpower 8.1](https://matpower.org)
 - [PGLIB-OPF](https://github.com/power-grid-lib/pglib-opf)
