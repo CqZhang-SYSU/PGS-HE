@@ -7,7 +7,6 @@ This repository contains the code and results associated with the paper titled:
 
 This directory contains all AC OPF test cases used in our experiments. The cases are organized into two separate folders based on their sources and characteristics.
 
----
 
 #### 1. `case_mod/`
 
@@ -21,9 +20,8 @@ The above three cases are sourced from the OptEnergyLocalOpt repository.
 
 - **case9mod_self**: A newly constructed 9‑bus benchmark with voltage bounds [0.98, 1.02], demand scaled to 60%, and reactive power lower bounds set to -12 MVars.
 
----
 
-#### 2. `cases/` (from MATPOWER 8.1 and PGLib)
+#### 2. `cases(from MATPOWER 8.1 and PGLib)/` 
 
 This folder contains standard benchmark cases from established repositories:
 
@@ -34,6 +32,7 @@ The above PGLib cases correspond to standard congested and typical operating con
 
 - **case2383wp** – from MATPOWER 8.1
 
+---
 
 ### 📌Table VI - AC OPF Solver Comparison (IPOPT vs. KNITRO)
 
