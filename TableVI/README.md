@@ -49,7 +49,7 @@ To investigate solver robustness and local convergence properties, we design two
 - **MATPOWER 8.1** (https://matpower.org/)
 - **MIPS** (version **1.5.1**)
 - **MexIPOPT** (or **IPOPT** recommended version **v3.14+**) (https://github.com/ebertolazzi/mexIPOPT)
-- **HSL** (**ma57 or ma97**)
+- **HSL** (**ma57 or ma97**) (https://github.com/CqZhang-SYSU/PGS-HE/tree/main/HSL)
 - **KNITRO** (recommended version **15.0++**) (https://www.artelys.com/solvers/knitro/)
 
 ---
