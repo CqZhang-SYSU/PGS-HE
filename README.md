@@ -3,7 +3,7 @@ This repository contains the code and results associated with the paper titled:
 
 
 
-### 📌 Case Data
+### 📌 Cases
 
 This directory contains all AC OPF test cases used in our experiments. The cases are collected from the following sources:
 
