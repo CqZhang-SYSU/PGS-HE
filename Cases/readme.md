@@ -7,7 +7,7 @@ The cases are collected from the following sources:
 - [PGLIB-OPF](https://github.com/power-grid-lib/pglib-opf)
 - [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) – these cases are known to possess multiple local optimal solutions.
 
-#### 1. `case_mod/`
+#### 1. `Case_mod/`
 
 This folder contains modified cases adapted from [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/), along with one newly constructed benchmark:
 
@@ -20,7 +20,7 @@ The above three cases are sourced from the [OptEnergyLocalOpt](https://webhomes.
 - **case9mod_self**: A newly constructed 9‑bus benchmark with voltage bounds [0.98, 1.02], demand scaled to 60%, and reactive power lower bounds set to -12 MVars.
 
 
-#### 2. `cases(from MATPOWER 8.1 and PGLib)/` 
+#### 2. `Cases(from MATPOWER 8.1 and PGLib)/` 
 
 This folder contains standard benchmark cases from established repositories:
 
