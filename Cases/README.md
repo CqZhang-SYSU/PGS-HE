@@ -24,9 +24,9 @@ The above three cases are sourced from the [OptEnergyLocalOpt](https://webhomes.
 
 This folder contains standard benchmark cases from established repositories:
 
-- **pglib_opf_case200_activ__api** – from PGLib OPF v23.07
-- **pglib_opf_case240_pserc** – from PGLib OPF v23.07
+- **pglib_opf_case200_activ__api** – from [PGLIB-OPF](https://github.com/power-grid-lib/pglib-opf) v23.07
+- **pglib_opf_case240_pserc** – from [PGLIB-OPF](https://github.com/power-grid-lib/pglib-opf) v23.07
 
 The above PGLib cases correspond to standard congested and typical operating conditions.
 
-- **case2383wp** – from MATPOWER 8.1
+- **case2383wp** – from [MATPOWER 8.1](https://matpower.org)
