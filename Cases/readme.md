@@ -1,4 +1,7 @@
-This directory contains all AC OPF test cases used in our experiments in PGE-HE. The cases are collected from the following sources:
+This repository contains the code and results associated with the paper titled:
+"A Novel Robust and Efficient Method for Computing High-Quality AC OPF Solutions Based on Trust-Tech and Holomorphic Embedding"
+
+This directory contains all AC OPF test cases used in our experiments. The cases are collected from the following sources:
 
 - [MATPOWER 8.1](https://matpower.org)
 - [PGLIB-OPF](https://github.com/power-grid-lib/pglib-opf)
