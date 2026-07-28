@@ -1,3 +1,9 @@
+This directory contains all AC OPF test cases used in our experiments in PGE-HE. The cases are collected from the following sources:
+
+- [MATPOWER 8.1](https://matpower.org)
+- [PGLIB-OPF](https://github.com/power-grid-lib/pglib-opf)
+- [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/) – these cases are known to possess multiple local optimal solutions.
+
 #### 1. `case_mod/`
 
 This folder contains modified cases adapted from [OptEnergyLocalOpt](https://webhomes.maths.ed.ac.uk/OptEnergy/LocalOpt/), along with one newly constructed benchmark:
