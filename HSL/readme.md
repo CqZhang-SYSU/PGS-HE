@@ -11,7 +11,7 @@ This directory contains precompiled Windows dynamic-link libraries (`.dll`) of t
 | `libgfortran-5.dll` | GCC Fortran runtime library (required dependency) |
 | `libgomp-1.dll` | GCC OpenMP parallel support library (required dependency) |
 
-> These are **Windows 64‑bit** precompiled binaries. `libhsl.dll` is specifically used when IPOPT is configured with the `ma57` (or `ma97`)linear solver.
+> These are **Windows 64‑bit** precompiled binaries. `libhsl.dll` is specifically used when IPOPT is configured with the `ma57` (or `ma97`) linear solver.
 
 ## 🔧 Purpose
 
