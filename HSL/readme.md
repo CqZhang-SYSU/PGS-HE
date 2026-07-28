@@ -1,6 +1,6 @@
 # HSL Math Library Dependency (IPOPT MATLAB Interface)
 
-This directory contains precompiled Windows dynamic-link libraries (`.dll`) of the **HSL** (Harwell Subroutine Library) mathematical library. They are used to enable **IPOPT** to call the MA57 sparse linear solver through the **MexIPOPT** interface in MATLAB.
+This directory contains precompiled Windows dynamic-link libraries (`.dll`) of the **HSL** (Harwell Subroutine Library) mathematical library. They are used to enable **IPOPT** to call the MA57 or MA97 sparse linear solver through the **MexIPOPT** interface in MATLAB.
 
 ## 📁 File List
 
@@ -15,7 +15,7 @@ This directory contains precompiled Windows dynamic-link libraries (`.dll`) of t
 
 ## 🔧 Purpose
 
-When solving large‑scale sparse nonlinear optimisation problems in MATLAB via IPOPT, you can specify the linear solver as `ma57`:
+When solving large‑scale sparse nonlinear optimisation problems in MATLAB via IPOPT, you can specify the linear solver as `ma57`(or `ma97'):
 
 ```matlab
 options.ipopt.linear_solver = 'ma57';
