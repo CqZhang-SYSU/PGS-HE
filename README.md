@@ -71,7 +71,7 @@ To investigate solver robustness and local convergence properties, we design two
 ## 🚀 How to Reproduce
 
 ### Prerequisites
-- **For MATLAB**: Install [MATPOWER](https://matpower.org/) (or equivalent AC OPF framework) and the corresponding solver interfaces (IPOPT for MATLAB, KNITRO for MATLAB).
+- **For MATLAB**: Install [MATPOWER8.1](https://matpower.org/) (or equivalent AC OPF framework) and the corresponding solver interfaces (IPOPT for MATLAB, KNITRO for MATLAB).
 
 
 ### Steps
