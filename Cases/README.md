@@ -1,4 +1,4 @@
-This directory contains all AC OPF test cases used in our experiments associated with the paper titled:
+This directory contains all test cases used in our experiments associated with the paper titled:
 "A Novel Robust and Efficient Method for Computing High-Quality AC OPF Solutions Based on Trust-Tech and Holomorphic Embedding".
 
 The cases are collected from the following sources:
